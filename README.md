@@ -19,8 +19,12 @@ Connect the ST-Link connector to CN1002 to download the firmware.
 The firmware was modified from [manuelbl/zy12pdn-oss](https://github.com/manuelbl/zy12pdn-oss).
 
 ## Issues
-This cannot be used with regular USB power supply (non-PD), or USB PD supply with 5V only power output. 
-TPS62130 cannot output 5V from 5V input. 
+This cannot be used with regular USB power supply (non-PD), or USB PD supply with 5V only power output, as TPS62130 cannot output 5V from 5V input. 
+
+To be fixed:
+- C1003 have wrong footprint size, 1206 should be used as a 0603 22uF capacitor voltage rating is too low.
+- D1002 is bidirectional TVS diode, but if a unidirectional TVS diode is used, the polarity marking is on the wrong side. 
+- Some trace could be bigger.
 
 ## Cost
 The whole board could be made at around a few dollars.
