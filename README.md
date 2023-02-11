@@ -7,6 +7,12 @@ A USB PD (Sink) DC-DC step-down power supply, request 12V from PD source, provid
   title="Photo of PCB"
   style="display: inline-block; margin: 0 auto; max-width: 300px">
 
+<img
+  src="PCB/board_backside.jpg"
+  alt="Another Photo of PCB"
+  title="Another Photo of PCB"
+  style="display: inline-block; margin: 0 auto; max-width: 300px">
+
 ## Components
 Uses FUSB302 and a STM32F030F4P6 for USB PD.
 Two TPS62130 for step down.
@@ -30,3 +36,4 @@ When making 10 boards:
 - TPS62130: $1*2
 - HRO TYPE-C-31-M-12: $0.1
 - Other components: $2 at most
+- PCB: ~$10
