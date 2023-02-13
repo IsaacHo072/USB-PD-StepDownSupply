@@ -1,5 +1,5 @@
 # USB-PD-StepDownSupply
-A USB PD (Sink) DC-DC step-down power supply, requests 12V from PD source, provides 5V and 3.3V output.
+A USB PD (Sink) DC-DC step-down power supply, requests 15-9V from PD source, provides 5V and 3.3V output.
 
 <img
   src="PCB/board.jpg"
@@ -18,7 +18,7 @@ Uses a FUSB302 and a STM32F030F4P6 for USB PD.
 Two TPS62130 for step down.
 
 ## Program
-A compiled firmware is provided for getting 12V from PD source. 
+A compiled firmware is provided for getting 15-9V from PD source. 
 ST-Link, or any SWD programmer could be used for programming. 
 Connect the ST-Link connector to CN1002 to download the firmware.
 
