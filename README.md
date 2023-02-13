@@ -35,10 +35,10 @@ To be fixed:
 ## Cost
 The whole board could be made at around a few dollars.
 
-When making 10 boards:
+When making 10 boards, each cost:
 - FUSB302: $0.7
 - STM32F030F4P6: $0.5
 - TPS62130: $1*2
 - HRO TYPE-C-31-M-12: $0.1
 - Other components: $2 at most
-- PCB: ~$10
+- PCB: ~$10 (for 10)
